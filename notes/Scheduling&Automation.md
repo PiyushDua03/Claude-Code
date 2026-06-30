@@ -1,3 +1,4 @@
+###📅 Scheduling in Claude Code
 ## What is Scheduling?
 
 **Scheduling** is the ability to make Claude Code run **automatically at predefined times or intervals**, without requiring you to manually open your computer and start it.
@@ -123,7 +124,7 @@ Every morning:
 - Check weather
 - Create today's task list
 
-![Image.png](https://resv2.craft.do/user/full/b1d3e983-5126-d13d-3368-9dcec21914b0/doc/AB5B5F67-5119-444A-87CE-3382D9131D9A/E9E1B47C-2C77-4D0B-AF21-67F5A6F7035C_2/EgTXdn13rqrzyJHlx8ksmXJSCxGqWrcOUeGyy2nk9Eoz/Image.png)
+<img width="1205" height="769" alt="image" src="https://github.com/user-attachments/assets/a2d86877-d30e-4cbe-8500-6725bed7bfdf" />
 
 # What is a Cron Job?
 
@@ -172,8 +173,8 @@ Example:
 ```other
 0 8 * * 1
 ```
+<img width="1087" height="799" alt="image" src="https://github.com/user-attachments/assets/cf0b1f6c-5d7b-4afb-85b1-27e56a15d58d" />
 
-![Image.png](https://resv2.craft.do/user/full/b1d3e983-5126-d13d-3368-9dcec21914b0/doc/AB5B5F67-5119-444A-87CE-3382D9131D9A/310BB2FE-1366-4F4E-9DDC-8D0BA13F9A83_2/EZvtKaVaV6InFZB3IX4bkLZ7IxvSRqyQisudTriCgTcz/Image.png)
 
 Developers no longer need to memorize Cron syntax.
 
@@ -183,14 +184,18 @@ Instead, simply ask AI:
 
 AI generates it for you.
 
-![Image.png](https://resv2.craft.do/user/full/b1d3e983-5126-d13d-3368-9dcec21914b0/doc/AB5B5F67-5119-444A-87CE-3382D9131D9A/961D4ABC-5D04-4BFC-A2CF-17BE4583B70C_2/OIRG1NDdQyl6m2kYuwmxsNoxnyWR4It1xXl746p2WJgz/Image.png)
+<img width="955" height="530" alt="image" src="https://github.com/user-attachments/assets/36069c82-4812-4c35-a27d-0c7a5e2a5afa" />
 
 ## Method 1 — `/loop`
 
 Runs inside the current Claude Code session.
 
 ```other
-Current Terminal↓Current Session↓Repeat Task
+Current Terminal
+↓
+Current Session
+↓
+Repeat Task
 ```
 
 ✔ Very simple
@@ -199,7 +204,7 @@ Current Terminal↓Current Session↓Repeat Task
 
 ❌ Stops if session ends
 
-![Image.png](https://resv2.craft.do/user/full/b1d3e983-5126-d13d-3368-9dcec21914b0/doc/AB5B5F67-5119-444A-87CE-3382D9131D9A/9278F99C-E56D-4CF2-A0EA-2E41D83E50FE_2/0J72ecE7yCfNRWyTQVxnvhliY7RrnyFD7bwcT4ofhqQz/Image.png)
+<img width="1131" height="704" alt="image" src="https://github.com/user-attachments/assets/e241d399-daee-47fa-9c75-cb21978105dd" />
 
 ---
 
@@ -235,4 +240,4 @@ Laptop Can Be Off
 
 This is the most powerful option and is designed for production automation.
 
-![Image.png](https://resv2.craft.do/user/full/b1d3e983-5126-d13d-3368-9dcec21914b0/doc/AB5B5F67-5119-444A-87CE-3382D9131D9A/C9FEF3E7-FF0F-4BAC-8E0C-B02FB79AC761_2/ltOOsl1hUldrCZvJZSQjpBYRibiCmJA36q5qsT6CnBgz/Image.png)
+<img width="1165" height="709" alt="image" src="https://github.com/user-attachments/assets/8abe52e4-1ddf-43fa-8f22-350aa9ca4ab3" />
